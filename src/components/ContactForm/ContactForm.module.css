@@ -1,0 +1,29 @@
+.form {
+  background-color: white;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1rem 1rem 1rem rgb(65, 64, 64, 0.5),
+    -1rem -1rem 1rem rgb(82, 81, 81, 0.5);
+}
+
+label {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+label:last-child {
+  margin-bottom: 0px;
+}
+
+.inputName {
+  margin-left: 25px;
+}
+.inputNumber {
+  margin-left: 10px;
+}
